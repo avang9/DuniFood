@@ -10,6 +10,8 @@ import android.widget.RatingBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import id.avang.dunifood.room.Food
+
 class FoodAdapter(
     private val data: ArrayList<Food>,
     val context: Context,
